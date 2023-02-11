@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2)
+      format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+.main {
+  font-size: 16px;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+}
+
+.descriptors {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2c7bd4;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+}
+
+.textArea {
+  border: none;
+  margin: 5px;
+  width: 98%;
+}
+.inputStyle{
+border: none;
+  margin: 5px;
+  width: 98%;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  width: 100%;
+}
+.main .icon {
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.topArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.main form {
+  width: 90%;
+}
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.jobInputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  width: 90%;
+  background-color: #c8f5fc;
+  border-radius: 8px;
+  padding: 20px;
+}
+.resumeInputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  width: 90%;
+  background-color: #c8f5fc;
+  border-radius: 8px;
+  padding: 20px;
+}
+.inputBox {
+  border: 1px solid #2c7bd4;
+  border-radius: 4px;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.main h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #2c7bd4;
+  margin: 16px 0 0px;
+  text-align: center;
+}
+
+.main p {
+  font-size: 12px;
+  line-height: 40px;
+  font-style: italic;
+  color: #2c7bd4;
+  margin: 16px 0 40px;
+  text-align: center;
+}
+
+.main ::placeholder {
+  color: #8e8ea0;
+  opacity: 1;
+}
+.main input[type="submit"] {
+  padding: 12px;
+  color: #fff;
+  background-color: #2c7bd4;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.main input[type="submit"]:hover {
+  background-color: #6195cf;
+}
+.submitButtonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.main .result {
+  font-size: 18px;
+  color: #2c7bd4;
+  margin-top: 40px;
+  padding: 0 40px 40px 40px;
+  border-radius: 8px;
+  width: 70vw;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+  background-color: #c8f5fc;
+  white-space: pre-line;
+}
+
+.hireMe {
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+  margin-top: 20px;
+  color: #2c7bd4;
+}
+
+.loading {
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+  margin-top: 20px;
+  color: gray;
+}
