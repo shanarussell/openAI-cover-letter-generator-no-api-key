@@ -2,6 +2,8 @@
 
 This is a cover letter generator built from the example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
 
+A working version of this app, deployed with Vercel, can be found here: (https://open-ai-cover-letter-generator-shanarussell.vercel.app/) [https://open-ai-cover-letter-generator-shanarussell.vercel.app/]
+
 ## Setup
 
 1. If you don’t have Node.js installed, [install it from here](https://nodejs.org/en/)
